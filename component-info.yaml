@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: GolangTest
+  description: Gonag test application
+  annotations: 
+    github.com/project-slug: clicker645/golangtest
+    backstage.io/github-actions-id: clicker645/golangtest
+spec:
+  type: service
+  lifecycle: experimental
+  owner: clicker645
